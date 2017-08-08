@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WeatherApp</title>
-        <link rel="stylesheet" href="style.css">
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-        <script src="app.js"></script>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="container">
         <div class='main'>
-            <h1>WeatherApp</h1>
-            <p id='city'></p>
-            <p id="summary"></p>
-            <p id='temperature'></p>
-            <a href="#" id="C">C</a>
-            <a href="#" id="F">F</a>
-            <p id='other-info'>
-                <span id='pressure' class='w-info'></span>
-                <span id='wind' class="w-info"></span>
-            </p>
+            <div class="row">
+                <p id='city'></p>
+            </div>
+            <div class="row">
+                <div class="temp">
+                    <p id='temperature'>&deg</p>
+                    <a href="#" id="C">C</a>
+                    <a href="#" id="F">F</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <canvas id="icon" width="50" height="50"></canvas>
+                <p id="summary"></p>
+            </div>
+            <div class="row">
+                <p id='pressure' class='w-info'></p>
+                <p id='wind' class="w-info"></p>
+            </div>
         </div>
-    </body>
+
+
+    </div>
+
+</body>
+
 </html>

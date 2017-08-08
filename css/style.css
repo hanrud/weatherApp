@@ -1,0 +1,57 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://image.freepik.com/free-photo/water-drops-on-glass_1323-179.jpg") no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif; }
+
+div.container {
+  padding: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  div.container div.main {
+    width: 40%;
+    padding: 20px 100px;
+    background: rgba(7, 27, 84, 0.75);
+    color: #fff;
+    border-radius: 20px;
+    text-align: center; }
+    div.container div.main .row {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      div.container div.main .row .temp {
+        text-align: center; }
+      div.container div.main .row p {
+        margin: 10px; }
+      div.container div.main .row p#temperature {
+        font-size: 80px;
+        font-weight: 300; }
+      div.container div.main .row p#city {
+        font-style: italic; }
+      div.container div.main .row a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+        margin-right: 20px; }
+      div.container div.main .row p#summary {
+        font-size: 22px; }

@@ -1,0 +1,53 @@
+$border: 1px solid;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://image.freepik.com/free-photo/water-drops-on-glass_1323-179.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    div.main {
+        width: 40%;
+        padding: 20px 100px;
+        background: rgba(7, 27, 84, 0.75);
+        color: #fff;
+        border-radius: 20px;
+        text-align: center;
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .temp {
+                text-align: center;
+            }
+            p {
+                margin: 10px;
+            }
+            p#temperature {
+                font-size: 80px;
+                font-weight: 300;
+            }
+            p#city {
+                font-style: italic;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 22px;
+                margin-right: 20px;
+            }
+            p#summary {
+                font-size: 22px;
+            }
+        }
+    }
+}
