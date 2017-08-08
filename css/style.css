@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("https://image.freepik.com/free-photo/water-drops-on-glass_1323-179.jpg") no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Open Sans', sans-serif; }
 
